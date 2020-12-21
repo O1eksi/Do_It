@@ -23,6 +23,5 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')), # новое добавление
     url(r'^', include('mainApp.urls')),
     url(r'^mas/', include('maseg.urls')),
-    url(r'^new/', include('newProg.urls')),
     url(r'^newProg/', include('newProg.urls')),
 ]
